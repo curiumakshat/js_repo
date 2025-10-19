@@ -51,3 +51,13 @@ console.log(str3); // Hello Akshat
 
 // console.log("1" + 5); // 15
 // console.log
+
+// tricky conversion
+
+let num1, num2, num3
+num1=num2=num3=2+2 // right to left evaluation
+
+
+let gameCounter = 100
+gameCounter++; // increment by 1
+console.log(gameCounter); // 101
