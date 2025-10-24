@@ -34,3 +34,31 @@ function greet() {
 //check wether js is dynamically typed or not
 let score1 = 33 // number
 console.log(typeof score1); // number
+
+//**************stack memory and heap memory**************
+
+// stack memory contains reference type memory and heap memory contains reference type memory
+
+// let userone = "Akshat Raj"
+// let usertwo = userone
+// usertwo = "curiumakshat"
+
+// console.log(`${usertwo}`);
+// console.log(userone);
+
+// //heapmemory (reference type memory)
+
+// let userID = {
+//     gmail: "user@gmail.com",
+//     upiId: "ypi@IB",
+//     Dob: 270325    
+
+// }
+// let userID2=userID
+
+// userID.gmail="curiumakshat@gmail.com"
+// console.log(userID2)
+// console.log(userID)
+
+
+
