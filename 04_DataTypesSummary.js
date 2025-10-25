@@ -33,8 +33,4 @@ function greet() {
 
 //check wether js is dynamically typed or not
 let score1 = 33 // number
-
-const scoreValue = 100.3
-const isLoggedIn = false
-let userName; // undefined
-const outsideTemp = null
+console.log(typeof score1); // number
