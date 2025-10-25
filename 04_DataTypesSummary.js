@@ -6,7 +6,7 @@ let name = "Akshat" // string
 // 2. number
 let score = 33 // number
 // 3. boolean
-let isLoggedIn = false // boolean
+let LoggedIn = false // boolean
 // 4. undefined
 let temp; // undefined
 // 5. null
@@ -33,4 +33,8 @@ function greet() {
 
 //check wether js is dynamically typed or not
 let score1 = 33 // number
-console.log(typeof score1); // number
+
+const scoreValue = 100.3
+const isLoggedIn = false
+let userName; // undefined
+const outsideTemp = null
